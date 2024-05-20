@@ -1,0 +1,34 @@
+
+  101  git
+  103  apt install git
+  104  git config --global user.name "John Fox"
+  105  git config --global user.email "john.fox@outlook.com"
+  106  git config --global init.default branch main
+  107  git remote --v
+  109  git config -h
+  112  git init
+  113  git status
+  122  git add www
+  123  git status
+  124  git rm --cached golpher.out
+  125  git rm --cached www/golpher.out
+  126  git status
+  127  git commit -m "first commit"
+  128  git status
+  134  git status
+  136  git diff
+  137  git add .
+  138  git status
+  139  git diff
+  140  git mv "golpher.out" "test.out"
+  141  git status
+  143  git commit -m "change filename"
+  144  git log
+  145  git log -p
+  146  git log -p
+  147  git help log
+  148  git logs
+
+
+
+
